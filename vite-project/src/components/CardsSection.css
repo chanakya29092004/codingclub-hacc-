@@ -1,0 +1,19 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 80px;
+  }
+  
+  .card {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

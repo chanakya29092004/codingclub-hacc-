@@ -1,0 +1,52 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    color: #aaa;
+    margin-bottom: 20px;
+  }
+  
+  .hero-button {
+    background-color: #3490dc;
+    padding: 12px 24px;
+    border-radius: 9999px;
+    transition: background-color 0.3s;
+  }
+  
+  .hero-button:hover {
+    background-color: #1c7ed6;
+  }
+  
+  .social-media {
+    margin-top: 30px;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+  }
+  
+  .hero-image img {
+    width: 400px;
+    height: 400px;
+  }
+  
